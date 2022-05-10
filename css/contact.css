@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* This is the begining styles for my nav. */
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #156c91;
+    position: sticky;
+}
+/* This is floating my logo to the left. */
+.logo{
+    float: left;
+    margin: 15px 15px;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    color: rgb(239, 233, 233);
+    text-transform: uppercase;
+    margin:20px 20px;
+}
+
+ .simpleForm{
+     margin: 3%;
+    background-color:rgb(50, 64, 53) ;
+    color: #fff;
+    height: 285px;
+    width: 305px;
+    font-size: 32px;
+    padding: 30px;
+}
+.contactForm{
+    position: absolute;
+    height: 500px;
+    width: 80%;
+    top: 30%;
+}
+.yout1{
+    margin: 3%;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.map1{
+    position: fixed; right: 27px; top: 16%;
+    
+} 
+.sub{
+    margin-top: -10%;
+}
+    
+ 

@@ -1,0 +1,25 @@
+body{
+    
+}
+nav{
+    height: 60px;
+    width: 100%;
+   background-color: rgb(17, 115, 190);
+    position: static;
+}
+/* This is floating my logo to the left. */
+.logo{
+    float: left;
+    margin: 15px 15px;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    color: rgb(248, 244, 244);
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin:20px 20px;
+}
