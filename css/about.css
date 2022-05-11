@@ -1,5 +1,9 @@
 body{
-    
+margin: 0; 
+padding:0;
+ background-image: url("../IMG/bg-img/bg-1.jpg");
+ background-color: rgb(99, 74, 43);
+
 }
 nav{
     height: 60px;
@@ -9,17 +13,116 @@ nav{
 }
 /* This is floating my logo to the left. */
 .logo{
-    float: left;
-    margin: 15px 15px;
+  float: left;
+  margin: 15px 15px;
 }
 nav ul{
-    list-style-type: none;
-    float: right;
+  list-style-type: none;
+  float: right;
+ 
 }
-nav ul li{
-    display: inline-block;
-    color: rgb(248, 244, 244);
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin:20px 20px;
+nav ul li {
+   display: inline-block; 
+position: sticky;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin:20px 20px;
 }
+.head{
+  text-align: center;
+  margin: 50px;
+}
+.menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-right: 380px;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+  .wrapper{
+      margin: 10px;
+  }
+/* start footer */
+footer ul { 
+ 
+  background-color: rgb(21, 138, 216);
+  decoration: none;
+  
+  bottom: 0;
+  display:flex;
+  flex-direction: row; 
+  margin: 2px;
+  padding-left:  20px;
+
+  height:60px;
+  
+   }
+   footer ul  li{ 
+  
+     width: 25px;
+  display: flex;
+      margin: 20px;
+      decoration: none;
+  
+       }
+  
+   a li{
+ decoration:none ;
+  float: right;
+  padding-left:  100px;
+   }
+  
+  
+   footer i:hover{
+  
+  background-color: rgb(32, 164, 221);
+  color: #000;
+  
+   }
+  
+  
+  
+  
+/* the end of footer */
